@@ -1,0 +1,27 @@
+{
+    "name": "progmaker",
+    "version": "1.0.0",
+    "description": "[![Stories in Ready](https://badge.waffle.io/e-imi/progmaker.png?label=ready&title=Ready)](https://waffle.io/e-imi/progmaker)\r # progmaker\r Создание рабочих программ и рабочих планов.",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "scripts": {
+        "test": "mocha tests",
+        "start": "node app.js",
+        "start:dev": "node app.js --NODE_ENV=development"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/e-imi/progmaker.git"
+    },
+    "author": "Korabelnikova Tatiana",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/e-imi/progmaker/issues"
+    },
+    "homepage": "https://github.com/e-imi/progmaker#readme",
+    "dependencies": {
+        "express": "4.14.1"
+    }
+}
